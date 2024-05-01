@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Cefoisa Ingenieria y Construcción</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <img src="logo.png" alt="Cefoisa Ingenieria y Construcción">
+        <h1>ELECCIÓN MARTILLO DELMAG</h1>
+        <img src="pilotaje1.png" alt="Hincado de Pilotes">
+    </header>
+    <form id="piloteForm">
+        <div class="input-group">
+            <label for="diametro"> Diámetro (m):</label>
+            <input type="number" id="diametro" name="diametro" step="0.1" min="0.1" placeholder="Ingrese diámetro en centímetros">
+        </div>
+        <div class="input-group">
+            <label for="longitud"> Longitud (m):</label>
+            <input type="number" id="longitud" name="longitud" step="0.1" min="0.1" placeholder="Ingrese longitud del pilote">
+        </div>
+        <button type="submit">Calcular</button>
+    </form>
+    <div id="resultado"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
